@@ -32,13 +32,6 @@ class Beatrice extends Chariot.Client {
        
         //this.manager = Erela(this)
     }
-    async initLoaders() {
-        return Files.requireDirectory("./src/modules/loaders", (Loader) => {
-          Loader.load(this).then(
-            Logger.sucess(`LOADERS`, `Pasta Loaders carregado com sucesso.`)
-          );
-        });
-      }
 }
 mongodb.start()
 const client = new Beatrice()
