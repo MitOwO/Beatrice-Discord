@@ -1,0 +1,27 @@
+{   "token": "your-token-here",
+    "embedColor": "LUMINOUS_VIVID_PINK",
+    "mongo_url": "mongo-token",
+    "chariotSetup": 
+        {
+        "prefix": ["->", "@mention"],
+        "guildPrefixes": [],
+        "defaultHelpCommand": false,
+        "primaryColor": "BLUE",
+        "owner": ["your-id-here"],
+        "excludeDirectories": ["templates"],
+            "customLocales": {
+            "missingPermissions": "O Comando **{command}** requer que eu tenha essa permissão: ``**{missingPermissions}**``",
+            "owner": "Ei. Apenas o Owner pode mexer nisso, eu diria.",
+            "cooldown": "espere {timeLeftFormatted} antes de me perguntar de novo, eu diria.",
+            "nsfw": "**{command}** Só pode ser usado em canais NSFW.",
+            "userPermissions": {
+                "title": "Espere um pouco.",
+                "description": "Você precisa dessas permissões para mexer nisso, eu suponho. ``**{missingUserPermissions}**``"
+            }
+        },
+    "extra": {
+        "messageLimit": 50,
+        "defaultImageFormat": "png"
+        }
+    }
+}
